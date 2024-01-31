@@ -5,6 +5,7 @@ import './Style/Style.css';
 const initialAudioFiles = JSON.parse(localStorage.getItem('audioList')) ||
   [
     { name: 'Audio 2', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' },
+    
     // Add more initial audio files as needed
   ];
 const App = () => {
